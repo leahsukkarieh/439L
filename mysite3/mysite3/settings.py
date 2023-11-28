@@ -26,9 +26,9 @@ SECRET_KEY = 'django-insecure-i+4mj=atq*meyq#&&1j+r@6^4n2g1hl1sl8#0ar7g%3w-_wq-m
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*', 'ContactList.azurewebsites.net']
+ALLOWED_HOSTS = ['*', 'ContactList1.azurewebsites.net']
 
-“CSRF_TRUSTED_ORIGINS = ['https://ContactList.azurewebsites.net']”
+“CSRF_TRUSTED_ORIGINS = ['https://ContactList1.azurewebsites.net']”
 
 
 
