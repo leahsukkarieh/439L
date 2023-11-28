@@ -24,9 +24,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-i+4mj=atq*meyq#&&1j+r@6^4n2g1hl1sl8#0ar7g%3w-_wq-m'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['*', 'ContactList.azurewebsites.net']
+
+“CSRF_TRUSTED_ORIGINS = ['https://ContactList.azurewebsites.net']”
+
 
 
 # Application definition
